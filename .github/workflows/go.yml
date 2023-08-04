@@ -24,4 +24,4 @@ jobs:
     - name: clone repository
       run: git clone https://github.com/SlackFisher/TIKTOK.git
     - name: bulid test
-      run: go build && ./TIKTOK
+      run: cd TIKYOK && go build && ./TIKTOK
